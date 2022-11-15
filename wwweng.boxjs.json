@@ -3,7 +3,7 @@
   "name": "WWWeng 🐝应用订阅",
   "author": "@WWWeng 🐝",
   "icon": "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wwweng.png",
-  "repo": "https://raw.githubusercontent.com/vvveng/BoxJs",
+  "repo": "https://github.com/vvveng/BoxJs",
   "apps": [
     {
       "id": "MojiCk",
