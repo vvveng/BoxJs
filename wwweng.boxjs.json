@@ -1,7 +1,7 @@
 {
   "id": "wwweng.app.sub",
-  "name": "WWWeng 🐝应用订阅",
-  "author": "@WWWeng 🐝",
+  "name": "WWWeng🐝应用订阅",
+  "author": "@WWWeng",
   "icon": "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wwweng.png",
   "repo": "https://github.com/vvveng/BoxJs",
   "apps": [
@@ -9,7 +9,7 @@
       "id": "MojiCk",
       "name": "墨迹天气",
       "keys": ["moji1", "moji2"],
-      "author": "@WWWeng 🐝",
+      "author": "@WWWeng",
       "icons": [
         "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png",
       ]
