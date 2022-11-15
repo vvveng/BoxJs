@@ -1,18 +1,21 @@
 {
-  "id": "wwweng.app.sub",
-  "name": "WWWeng🐝应用订阅",
-  "author": "@WWWeng",
-  "icon": "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wwweng.png",
-  "repo": "https://github.com/vvveng/BoxJs",
-  "apps": [
+  "id" : "wwweng.app.sub",
+  "author" : "@WWWeng",
+  "icon" : "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/wwweng.png",
+  "name" : "WWWeng🐝应用订阅",
+  "repo" : "https:\/\/github.com\/vvveng\/BoxJs",
+  "apps" : [
     {
-      "id": "MojiCk",
-      "name": "墨迹天气",
-      "keys": ["moji1","moji2"],
-      "author": "@WWWeng",
-      "icons": [
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png",
+      "id" : "MojiCk",
+      "author" : "@WWWeng",
+      "keys" : [
+        "moji1",
+        "moji2"
+      ],
+      "name" : "墨迹天气",
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/moji.png"
       ]
-    },
+    }
   ]
 }
