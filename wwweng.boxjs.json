@@ -8,7 +8,7 @@
     {
       "id": "MojiCk",
       "name": "墨迹天气",
-      "keys": ["moji1", "moji2"],
+      "keys": ["moji1","moji2"],
       "author": "@WWWeng",
       "icons": [
         "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png",
