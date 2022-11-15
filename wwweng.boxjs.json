@@ -9,8 +9,8 @@
       "id" : "MojiCk",
       "author" : "@WWWeng",
       "keys" : [
-        "moji1",
-        "moji2"
+        "userid",
+        "snsid"
       ],
       "name" : "墨迹天气",
       "icons" : [
