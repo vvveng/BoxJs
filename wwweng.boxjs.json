@@ -6,18 +6,6 @@
   "repo" : "https:\/\/github.com\/vvveng\/BoxJs",
   "apps" : [
     {
-      "id" : "MojiCk",
-      "author" : "@WWWeng",
-      "keys" : [
-        "userid",
-        "snsid"
-      ],
-      "name" : "墨迹天气",
-      "icons" : [
-        "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/moji.png"
-      ]
-    },
-    {
       "id": "Auto_get_TF",
       "name": "TestFlight信息自动获取",
       "author": "@WWWeng",
