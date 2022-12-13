@@ -1,13 +1,14 @@
 {
-  "id" : "wwweng.app.sub",
-  "author" : "@WWWeng",
-  "icon" : "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/wwweng.png",
-  "name" : "WWWeng🐝应用订阅",
-  "repo" : "https:\/\/github.com\/vvveng\/BoxJs",
-  "apps" : [
+  "id": "wwweng.app.sub",
+  "name": "WWWeng🐝应用订阅",
+  "author": "@WWWeng",
+  "icon": "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/wwweng.png",
+  "repo": "https:\/\/github.com\/vvveng\/BoxJs",
+  "apps": [
     {
-      "id": "Auto_get_TF",
-      "name": "TestFlight信息自动获取",
+
+      "id": "Auto_join_TF",
+      "name": "TestFlight自动获取",
       "author": "@WWWeng",
       "script": "",
       "descs_html": [
@@ -29,11 +30,9 @@
           "name": "填写 APP_ID 多个用英文","隔开",
           "val": "",
           "type": "text",
-          "desc": ""       
+          "desc": ""
         }
       ]
-    } 
+    }
   ]
 }
-
-
