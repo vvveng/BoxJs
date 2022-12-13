@@ -16,7 +16,7 @@
       "icons" : [
         "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/moji.png"
       ]
-    }
+    },
     {
       "id": "Auto_get_TF",
       "name": "TestFlight信息自动获取",
