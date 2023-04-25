@@ -18,7 +18,7 @@
           "name": "墨迹天气用户id",
           "val": "",
           "type": "text",
-        }
+        },
         {
           "id": "A_moji_snsid",
           "name": "墨迹天气snsid",
