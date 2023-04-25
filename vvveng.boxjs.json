@@ -1,6 +1,6 @@
 {
-  "id" : "wwweng.app.sub",
-  "author" : "@WWWeng",
+  "id" : "vvveng.app.sub",
+  "author" : "@vvveng",
   "icon" : "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wwweng.png",
   "name" : "WWWeng🐝应用订阅",
   "repo" : "https://github.com/vvveng/BoxJs",
@@ -26,7 +26,7 @@
           "type": "text",
         }
       ],
-      "author": "@WWWeng",
+      "author": "@vvveng",
       "script": "",
       "icons": [
         "https://raw.githubusercontent.com/githubdulong/Script/master/Images/testflight.png",
