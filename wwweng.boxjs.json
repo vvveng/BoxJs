@@ -3,7 +3,7 @@
   "author" : "@WWWeng",
   "icon" : "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wwweng.png",
   "name" : "WWWeng🐝应用订阅",
-  "repo" : "https://github.com/vvveng/BoxJs",
+  "repo" : "https://raw.githubusercontent.com/vvveng/BoxJs/main",
   "apps" : [
     {
       "id": "Auto_join_TF",
