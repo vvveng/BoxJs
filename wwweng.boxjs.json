@@ -1,9 +1,9 @@
 {
   "id" : "wwweng.app.sub",
   "author" : "@WWWeng",
-  "icon" : "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/wwweng.png",
+  "icon" : "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wwweng.png",
   "name" : "WWWeng🐝应用订阅",
-  "repo" : "https:\/\/github.com\/vvveng\/BoxJs",
+  "repo" : "https://github.com/vvveng/BoxJs",
   "apps" : [
     {
       "id": "Auto_join_TF",
