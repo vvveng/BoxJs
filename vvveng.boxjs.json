@@ -1,42 +1,41 @@
 {
-  "id": "vvveng.app.sub",
-  "name": "WWWeng🐝应用订阅",
-  "author": "@vvveng",
-  "icon": "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wwweng.png",
-  "repo": "https://github.com/vvveng/BoxJs",
-  "apps": [
-    {
-      "id": "Auto_join_TF",
-      "name": "TestFlight自动加入",
-      "keys": ["@A_moji_userid", "@gist.username"],
-      "author": "@vvveng",
-      "icons": [
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png",
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png"
-      ],
-      "descs_html": [
-        "使用方法:",
-        "抓取数据后提交"
-      ],
-      "settings": [
+    "id": "vvveng.app.sub",
+    "name": "WWWeng🐝应用订阅",
+    "author": "@vvveng",
+    "icon": "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wwweng.png",
+    "repo": "https://github.com/vvveng/BoxJs",
+    "apps": [
         {
-          "id": "@A_moji_userid",
-          "name": "墨迹天气用户id",
-          "val": null,
-          "type": "text",
-          "placeholder": "墨迹天气用户id",
-          "desc": "必填"
-        },
-        {
-          "id": "@A_moji_snsid",
-          "name": "墨迹天气snsid",
-          "val": null,
-          "type": "text",
-          "placeholder": "墨迹天气snsid",
-          "desc": "必填"
+            "id": "Auto_join_TF",
+            "name": "TestFlight自动加入",
+            "keys": ["@A_moji_userid", "@gist.username"],
+            "author": "@vvveng",
+            "icons": [
+                "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png",
+                "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png"
+            ],
+            "descs_html": [
+                "使用方法:",
+                "抓取数据后提交"
+            ],
+            "settings": [
+                {
+                    "id": "@A_moji_userid",
+                    "name": "墨迹天气用户id",
+                    "val": null,
+                    "type": "text",
+                    "placeholder": "墨迹天气用户id",
+                    "desc": "必填"
+                },
+                {
+                    "id": "@A_moji_snsid",
+                    "name": "墨迹天气snsid",
+                    "val": null,
+                    "type": "text",
+                    "placeholder": "墨迹天气snsid",
+                    "desc": "必填"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
-  
