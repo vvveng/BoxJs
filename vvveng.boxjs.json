@@ -8,7 +8,7 @@
         {
             "id": "Auto_moji_checkin",
             "name": "墨迹天气签到",
-            "keys": ["@A_moji_userid", "@gist.username"],
+            "keys": ["@A_moji_userid", "@A_moji_snsid"],
             "author": "@vvveng",
             "icons": [
                 "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png",
