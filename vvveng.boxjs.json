@@ -6,8 +6,8 @@
     "repo": "https://github.com/vvveng/BoxJs",
     "apps": [
         {
-            "id": "Auto_join_TF",
-            "name": "TestFlight自动加入",
+            "id": "Auto_moji_checkin",
+            "name": "墨迹天气签到",
             "keys": ["@A_moji_userid", "@gist.username"],
             "author": "@vvveng",
             "icons": [
