@@ -1,41 +1,38 @@
 {
-    "id": "vvveng.app.sub",
-    "name": "WWWeng🐝应用订阅",
-    "author": "@vvveng",
-    "icon": "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wwweng.png",
-    "repo": "https://github.com/vvveng/BoxJs",
-    "apps": [
+  “id”: “asvow.app.sub”,
+  “name”: “AsVow搴旂敤璁㈤槄”,
+  “author”: “@AsVow”,
+  “icon”: “https://avatars.githubusercontent.com/u/88471740”,
+  “repo”: “https://ooxx.be/js”,
+  “apps”: [
+    {
+      “id”: “umer”,
+      “name”: “浼橀害鍖荤敓”,
+      “keys”: [“@UMER.CookieUM”],
+      “settings”: [
         {
-            "id": "Auto_moji_checkin",
-            "name": "墨迹天气签到",
-            "keys": ["@A_moji_userid", "@A_moji_snsid"],
-            "author": "@vvveng",
-            "icons": [
-                "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png",
-                "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png"
-            ],
-            "descs_html": [
-                "使用方法:",
-                "抓取数据后提交"
-            ],
-            "settings": [
-                {
-                    "id": "@A_moji_userid",
-                    "name": "墨迹天气用户id",
-                    "val": null,
-                    "type": "text",
-                    "placeholder": "墨迹天气用户id",
-                    "desc": "必填"
-                },
-                {
-                    "id": "@A_moji_snsid",
-                    "name": "墨迹天气snsid",
-                    "val": null,
-                    "type": "text",
-                    "placeholder": "墨迹天气snsid",
-                    "desc": "必填"
-                }
-            ]
+          “id”: “@UMER.CookieUM”,
+          “name”: “UMER Token”,
+          “val”: null,
+          “type”: “textarea”,
+          “autoGrow”: true,
+          “rows”: 1,
+          “desc”: “”
         }
-    ]
+      ],
+      “author”: “@AsVow”,
+      “repo”: “https://ooxx.be/js”,
+      “icons”: [“https://ooxx.be/js/icon/umer-trn.png”, “https://ooxx.be/js/icon/umer.png”],
+      “script”: “https://ooxx.be/js/umer.js”
+    },
+    {
+      “id”: “jegotrip”,
+      “name”: “鏃犲咖琛�”,
+      “keys”: [“@鏃犲咖琛�.AsVow”],
+      “author”: “@AsVow”,
+      “repo”: “https://ooxx.be/js”,
+      “icons”: [“https://ooxx.be/js/icon/jegotrip-trn.png”, “https://ooxx.be/js/icon/jegotrip.png”],
+      “script”: “https://ooxx.be/js/jegotrip.js”
+    }
+  ]
 }
