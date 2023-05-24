@@ -13,7 +13,7 @@
         {
           "id": "A_moji_userid",
           "name": "墨迹用户ID",
-          "val": "",
+          "val": null,
           "type": "textarea",
           "placeholder": "userid",
           "desc": "填入墨迹用户ID"
@@ -21,7 +21,7 @@
         {
           "id": "A_moji_snsid",
           "name": "墨迹snsid",
-          "val": "",
+          "val": null,
           "type": "textarea",
           "placeholder": "snsid",
           "desc": "填入墨迹snsid"
