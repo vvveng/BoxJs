@@ -3,7 +3,7 @@
   "name": "嗡嗡嗡 应用订阅",
   "author": "@vvveng",
   "icon": "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wwweng.png",
-  "repo": "https://github.com/vvveng/BoxJs",
+  "repo": "https://github.com/chouchoui/QuanX",
   "apps": [
     {
       "id": "Auto_moji_checkin",
