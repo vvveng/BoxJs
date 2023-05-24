@@ -6,15 +6,6 @@
   "repo": "https://github.com/vvveng/BoxJs",
   "apps": [
     {
-      "id": "vei.dq.sign",
-      "name": "DQ点单小程序签到",
-      "keys": ["vei_dq_wechat_getSignUrl", "vei_dq_wechat_getSignBody"],
-      "author": "@vvveng",
-      "repo": "https://github.com/chouchoui/QuanX/tree/master/Scripts/dq",
-      "icons": ["https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/dq/dq.png", "https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/dq/dq.task.png"],
-      "script": "https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/dq/dq.sign.js"
-    },
-    {
       "id": "Auto_moji_checkin",
       "name": "墨迹天气签到",
       "keys": ["A_moji_userid", "A_moji_snsid"],
