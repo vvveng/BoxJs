@@ -1,41 +1,81 @@
 {
-    "id": "vvveng.app.sub",
-    "name": "WWWeng🐝应用订阅",
-    "author": "@vvveng",
-    "icon": "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wwweng.png",
-    "repo": "https://github.com/vvveng/BoxJs",
-    "apps": [
+  "id": "vvveng.app.sub", 
+  "name": "嗡嗡嗡 应用订阅", 
+  "author": "@vvveng", 
+  "icon": "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wwweng.png", 
+  "repo": "https://github.com/vvveng/BoxJs", 
+  "apps": [
+    {
+      "id": "vvveng.moji", 
+      "name": "墨迹天气签到", 
+      "keys": [
+        "A_moji_userid", 
+        "A_moji_snsid"
+      ], 
+      "settings": [
         {
-            "id": "Auto_moji_checkin",
-            "name": "墨迹天气签到",
-            "keys": ["@A_moji_userid", "@A_moji_snsid"],
-            "author": "@vvveng",
-            "icons": [
-                "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png",
-                "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png"
-            ],
-            "descs_html": [
-                "使用方法:",
-                "抓取数据后提交"
-            ],
-            "settings": [
-                {
-                    "id": "@A_moji_userid",
-                    "name": "墨迹天气用户id",
-                    "val": null,
-                    "type": "text",
-                    "placeholder": "墨迹天气用户id",
-                    "desc": "必填"
-                },
-                {
-                    "id": "@A_moji_snsid",
-                    "name": "墨迹天气snsid",
-                    "val": null,
-                    "type": "text",
-                    "placeholder": "墨迹天气snsid",
-                    "desc": "必填"
-                }
-            ]
+          "id": "A_moji_userid", 
+          "name": "墨迹天气USERID", 
+          "val": "", 
+          "type": "textarea", 
+          "placeholder": "USERID", 
+          "autoGrow": true, 
+          "rows": 1, 
+          "desc": "填入墨迹天气USERID"
+        }, 
+        {
+          "id": "A_moji_snsid", 
+          "name": "墨迹天气SNSID", 
+          "val": "", 
+          "type": "textarea", 
+          "placeholder": "SNSID", 
+          "autoGrow": true, 
+          "rows": 1, 
+          "desc": "填入墨迹天气SNSID"
         }
-    ]
+      ], 
+      "author": "@vvveng", 
+      "repo": "https://github.com/vvveng/BoxJs", 
+      "icons": [
+        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png", 
+        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png"
+      ]
+    }, 
+    {
+      "id": "vvveng.jiejing", 
+      "name": "捷径社区签到", 
+      "keys": [
+        "A_jiejing_user", 
+        "A_jiejing_token"
+      ], 
+      "settings": [
+        {
+          "id": "A_jiejing_user", 
+          "name": "捷径社区USER", 
+          "val": "", 
+          "type": "textarea", 
+          "placeholder": "USER", 
+          "autoGrow": true, 
+          "rows": 1, 
+          "desc": "填入捷径社区USER"
+        }, 
+        {
+          "id": "A_jiejing_token", 
+          "name": "捷径社区TOKEN", 
+          "val": "", 
+          "type": "textarea", 
+          "placeholder": "TOKEN", 
+          "autoGrow": true, 
+          "rows": 1, 
+          "desc": "填入捷径社区TOKEN"
+        }
+      ], 
+      "author": "@vvveng", 
+      "repo": "https://github.com/vvveng/BoxJs", 
+      "icons": [
+        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/jiejingshequ.png", 
+        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/jiejingshequ.png"
+      ]
+    }
+  ]
 }
