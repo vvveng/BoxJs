@@ -17,7 +17,7 @@
     {
       "id": "vvveng.moji",
       "name": "墨迹天气签到",
-      "keys": ["A_moji_userid", "A_moji_userid", "A_moji_snsid"],
+      "keys": ["A_moji_userid", "A_moji_snsid"],
       "settings": [
         {
           "id": "A_moji_userid",
