@@ -15,43 +15,6 @@
       "script": "https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/nga/nga.js"
     },
     {
-      "id": "vei.angelalign",
-      "name": "时代天使小程序",
-      "keys": ["vei_angelalign_headers"],
-      "author": "@chouchoui",
-      "repo": "https://github.com/chouchoui/QuanX/tree/master/Scripts/angelalign",
-      "icons": [
-        "https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/angelalign/angelalign.png",
-        "https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/angelalign/angelalign.task.png"
-      ]
-    },
-    {
-      "id": "vei.qmkg",
-      "name": "全民K歌",
-      "keys": ["vei_qmkg_url", "vei_qmkg_headers", "vei_qmkg_body"],
-      "author": "@GideonSenku, @chouchoui",
-      "repo": "https://github.com/chouchoui/QuanX/tree/master/Scripts/qmkg",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/qmkg.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/qmkg.png"],
-      "script": "https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/qmkg/qmkg.js"
-    },
-    {
-      "id": "vei.ikea20201028",
-      "name": "宜家20201028活动签到",
-      "keys": ["vei_ikea_20201028_checkin_authorization"],
-      "author": "@chouchoui",
-      "repo": "https://github.com/chouchoui/QuanX/tree/master/Scripts/ikea/20201028",
-      "icons": ["https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/ikea/ikea.png", "https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/ikea/ikea.task.png"]
-    },
-    {
-      "id": "vei.dq.sign",
-      "name": "DQ点单小程序签到",
-      "keys": ["vei_dq_wechat_getSignUrl", "vei_dq_wechat_getSignBody"],
-      "author": "@chouchoui",
-      "repo": "https://github.com/chouchoui/QuanX/tree/master/Scripts/dq",
-      "icons": ["https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/dq/dq.png", "https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/dq/dq.task.png"],
-      "script": "https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/dq/dq.sign.js"
-    },
-    {
       "id": "blackmatrix7.bilibili",
       "name": "哔哩哔哩去广告",
       "keys": ["bilibili_story_aid", "bilibili_feed_black", "bilibili_disable_index_story", "bilibili_enable_mall"],
