@@ -15,7 +15,7 @@
       "settings": [
         {
           "id": "A_moji_userid", 
-          "name": "墨迹天气用户ID", 
+          "name": "墨迹天气USERID", 
           "val": "", 
           "type": "textarea", 
           "placeholder": "USERID", 
