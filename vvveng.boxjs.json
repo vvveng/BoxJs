@@ -168,7 +168,7 @@
           "desc": "请依次填入标题，以中文逗号分隔"
         },
         {
-          "id": "evil_checkinlogin",
+          "id": "A_Cloud_checkinlogin",
           "name": "网址",
           "val": "",
           "placeholder": "请填写，例如：https://example.com/auth/login",
@@ -204,7 +204,7 @@
         "https://raw.githubusercontent.com/58xinian/icon/master/glados_mini.png",
         "https://raw.githubusercontent.com/58xinian/icon/master/glados_animation.gif"
       ],
-      "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js"
+      "script": "https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Cloud_Checkin.js"
     }
   ]
 }
