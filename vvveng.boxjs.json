@@ -145,18 +145,11 @@
       ],
       "keys": [
         "A_Cloud_checkintitle",
-        "A_Cloud_checkinlogin",
+        "A_Cloud_checkinurl",
         "A_Cloud_checkinemail",
         "A_Cloud_checkinpwd"
       ],
       "settings": [
-        {
-          "id": "A_Cloud_autoLogout",
-          "name": "重新登陆",
-          "val": false,
-          "type": "boolean",
-          "desc": "打开则会重新登陆后签到"
-        },
         {
           "id": "A_Cloud_checkintitle",
           "name": "标题",
@@ -165,17 +158,17 @@
           "type": "textarea",
           "autoGrow": true,
           "rows": 1,
-          "desc": "请依次填入标题，以中文逗号分隔"
+          "desc": "请填入标题"
         },
         {
-          "id": "A_Cloud_checkinlogin",
+          "id": "A_Cloud_checkinurl",
           "name": "网址",
           "val": "",
-          "placeholder": "请填写，例如：https://example.com/auth/login",
+          "placeholder": "请填写，例如：https://example.com",
           "type": "textarea",
           "autoGrow": true,
           "rows": 1,
-          "desc": "请依次填入网址，以中文逗号分隔"
+          "desc": "请填入网址"
         },
         {
           "id": "A_Cloud_checkinemail",
@@ -185,7 +178,7 @@
           "type": "textarea",
           "autoGrow": true,
           "rows": 1,
-          "desc": "请依次填入邮箱，以中文逗号分隔"
+          "desc": "请填入邮箱"
         },
         {
           "id": "A_Cloud_checkinpwd",
@@ -195,7 +188,7 @@
           "type": "textarea",
           "autoGrow": true,
           "rows": 1,
-          "desc": "请依次填入密码，以中文逗号分隔"
+          "desc": "请填入密码"
         }
       ],
       "author": "@vvveng",
