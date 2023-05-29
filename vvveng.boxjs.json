@@ -192,6 +192,7 @@
       "author": "@vvveng",
       "repo": "https://github.com/vvveng/BoxJs",
       "icons": [
+        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/jichang.png",
         "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/jichang.png"
       ],
       "script": "https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Cloud_Checkin.js"
