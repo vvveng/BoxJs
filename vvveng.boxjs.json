@@ -1,201 +1,203 @@
 {
-  "id": "vvveng.app.sub", 
-  "name": "嗡嗡嗡 应用订阅", 
-  "author": "@vvveng", 
-  "icon": "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wwweng.png", 
-  "repo": "https://github.com/vvveng/BoxJs", 
-  "apps": [
+  ”id“: ”vvveng.app.sub“, 
+  ”name“: ”嗡嗡嗡 应用订阅“, 
+  ”author“: ”@vvveng“, 
+  ”icon“: ”https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wwweng.png“, 
+  ”repo“: ”https://github.com/vvveng/BoxJs“, 
+  ”apps“: [
     {
-      "id": "vvveng.moji", 
-      "name": "墨迹天气签到", 
-      "keys": [
-        "A_moji_userid", 
-        "A_moji_snsid"
+      ”id“: ”vvveng.moji“, 
+      ”name“: ”墨迹天气签到“, 
+      ”keys“: [
+        ”A_moji_userid“, 
+        ”A_moji_snsid“
       ], 
-      "settings": [
+      ”settings“: [
         {
-          "id": "A_moji_userid", 
-          "name": "墨迹天气USERID", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "USERID", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入墨迹天气USERID"
+          ”id“: ”A_moji_userid“, 
+          ”name“: ”墨迹天气USERID“, 
+          ”val“: ”“, 
+          ”type“: ”textarea“, 
+          ”placeholder“: ”USERID“, 
+          ”autoGrow“: true, 
+          ”rows“: 1, 
+          ”desc“: ”填入墨迹天气USERID“
         }, 
         {
-          "id": "A_moji_snsid", 
-          "name": "墨迹天气SNSID", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "SNSID", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入墨迹天气SNSID"
+          ”id“: ”A_moji_snsid“, 
+          ”name“: ”墨迹天气SNSID“, 
+          ”val“: ”“, 
+          ”type“: ”textarea“, 
+          ”placeholder“: ”SNSID“, 
+          ”autoGrow“: true, 
+          ”rows“: 1, 
+          ”desc“: ”填入墨迹天气SNSID“
         }
       ], 
-      "author": "@vvveng", 
-      "repo": "https://github.com/vvveng/BoxJs", 
-      "icons": [
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png", 
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png"
+      ”author“: ”@vvveng“, 
+      ”repo“: ”https://github.com/vvveng/BoxJs“, 
+      ”icons“: [
+        ”https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png“, 
+        ”https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png“
       ]
     }, 
     {
-      "id": "vvveng.jiejing", 
-      "name": "捷径社区签到", 
-      "keys": [
-        "A_jiejing_user", 
-        "A_jiejing_token"
+      ”id“: ”vvveng.jiejing“, 
+      ”name“: ”捷径社区签到“, 
+      ”keys“: [
+        ”A_jiejing_user“, 
+        ”A_jiejing_token“
       ], 
-      "settings": [
+      ”settings“: [
         {
-          "id": "A_jiejing_user", 
-          "name": "捷径社区USER", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "USER", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入捷径社区USER"
+          ”id“: ”A_jiejing_user“, 
+          ”name“: ”捷径社区USER“, 
+          ”val“: ”“, 
+          ”type“: ”textarea“, 
+          ”placeholder“: ”USER“, 
+          ”autoGrow“: true, 
+          ”rows“: 1, 
+          ”desc“: ”填入捷径社区USER“
         }, 
         {
-          "id": "A_jiejing_token", 
-          "name": "捷径社区TOKEN", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "TOKEN", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入捷径社区TOKEN"
+          ”id“: ”A_jiejing_token“, 
+          ”name“: ”捷径社区TOKEN“, 
+          ”val“: ”“, 
+          ”type“: ”textarea“, 
+          ”placeholder“: ”TOKEN“, 
+          ”autoGrow“: true, 
+          ”rows“: 1, 
+          ”desc“: ”填入捷径社区TOKEN“
         }
       ], 
-      "author": "@vvveng", 
-      "repo": "https://github.com/vvveng/BoxJs", 
-      "icons": [
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/jiejingshequ.png", 
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/jiejingshequ.png"
+      ”author“: ”@vvveng“, 
+      ”repo“: ”https://github.com/vvveng/BoxJs“, 
+      ”icons“: [
+        ”https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/jiejingshequ.png“, 
+        ”https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/jiejingshequ.png“
       ]
     },
     {
-      "id": "vvveng.TF", 
-      "name": "TestFlight", 
-      "keys": [
-        "A_TF_Key", 
-        "A_TF_Request_id",
-        "A_TF_Session_digest", 
-        "A_TF_Session_id"
+      ”id“: ”vvveng.TF“, 
+      ”name“: ”TestFlight“, 
+      ”keys“: [
+        ”A_TF_Key“, 
+        ”A_TF_Request_id“,
+        ”A_TF_Session_digest“, 
+        ”A_TF_Session_id“
       ], 
-      "settings": [
+      ”settings“: [
         {
-          "id": "A_TF_Key", 
-          "name": "TF_Key", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "Key", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入Key"
+          ”id“: ”A_TF_Key“, 
+          ”name“: ”TF_Key“, 
+          ”val“: ”“, 
+          ”type“: ”textarea“, 
+          ”placeholder“: ”Key“, 
+          ”autoGrow“: true, 
+          ”rows“: 1, 
+          ”desc“: ”填入Key“
         }, 
         {
-          "id": "A_TF_Request_id", 
-          "name": "TF_Request_id", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "Request_id", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入Request_id"
+          ”id“: ”A_TF_Request_id“, 
+          ”name“: ”TF_Request_id“, 
+          ”val“: ”“, 
+          ”type“: ”textarea“, 
+          ”placeholder“: ”Request_id“, 
+          ”autoGrow“: true, 
+          ”rows“: 1, 
+          ”desc“: ”填入Request_id“
         }, 
         {
-          "id": "A_TF_Session_digest", 
-          "name": "TF_Session_digest", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "Session_digest", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入Session_digest"
+          ”id“: ”A_TF_Session_digest“, 
+          ”name“: ”TF_Session_digest“, 
+          ”val“: ”“, 
+          ”type“: ”textarea“, 
+          ”placeholder“: ”Session_digest“, 
+          ”autoGrow“: true, 
+          ”rows“: 1, 
+          ”desc“: ”填入Session_digest“
         }, 
         {
-          "id": "A_TF_Session_id", 
-          "name": "TF_Session_id", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "Session_id", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入Session_id"
+          ”id“: ”A_TF_Session_id“, 
+          ”name“: ”TF_Session_id“, 
+          ”val“: ”“, 
+          ”type“: ”textarea“, 
+          ”placeholder“: ”Session_id“, 
+          ”autoGrow“: true, 
+          ”rows“: 1, 
+          ”desc“: ”填入Session_id“
         }
       ], 
-      "author": "@vvveng", 
-      "repo": "https://github.com/vvveng/BoxJs", 
-      "icons": [
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/TF.png", 
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/TF.png"
+      ”author“: ”@vvveng“, 
+      ”repo“: ”https://github.com/vvveng/BoxJs“, 
+      ”icons“: [
+        ”https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/TF.png“, 
+        ”https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/TF.png“
       ]
     },
     {
-      "id": "vvveng.checkin",
-      "name": "机场签到-V版",
-      "descs_html": [
-        "点此直达【<a href=\"https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Cloud_Checkin.js\">脚本地址</a>】",
+      ”id“: ”vvveng.checkin“,
+      ”name“: ”机场签到-V版“,
+      ”descs_html“: [
+        ”点此直达【<a href=\“https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Cloud_Checkin.js\”>脚本地址</a>】“,
+        ”多个机场使用请用<font class=\“error—text\”>中文逗号</font>分隔，顺序需要对应。“,
+        ”也可利用BoxJs<font class=\“error—text\”>会话切换</font>功能，一次保存一个机场信息，切换会话签到。“
       ],
-      "keys": [
-        "A_Cloud_checkintitle",
-        "A_Cloud_checkinurl",
-        "A_Cloud_checkinemail",
-        "A_Cloud_checkinpwd"
+      ”keys“: [
+        ”A_Cloud_checkintitle“,
+        ”A_Cloud_checkinurl“,
+        ”A_Cloud_checkinemail“,
+        ”A_Cloud_checkinpwd“
       ],
-      "settings": [
+      ”settings“: [
         {
-          "id": "A_Cloud_checkintitle",
-          "name": "标题",
-          "val": "",
-          "placeholder": "请填写，例如：CordCloud",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 1,
-          "desc": "请填入标题"
+          ”id“: ”A_Cloud_checkintitle“,
+          ”name“: ”标题“,
+          ”val“: ”“,
+          ”placeholder“: ”请填写，例如：CordCloud“,
+          ”type“: ”textarea“,
+          ”autoGrow“: true,
+          ”rows“: 1,
+          ”desc“: ”请填入标题“
         },
         {
-          "id": "A_Cloud_checkinurl",
-          "name": "网址",
-          "val": "",
-          "placeholder": "请填写，例如：https://example.com",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 1,
-          "desc": "请填入网址"
+          ”id“: ”A_Cloud_checkinurl“,
+          ”name“: ”网址“,
+          ”val“: ”“,
+          ”placeholder“: ”请填写，例如：https://example.com“,
+          ”type“: ”textarea“,
+          ”autoGrow“: true,
+          ”rows“: 1,
+          ”desc“: ”请填入网址“
         },
         {
-          "id": "A_Cloud_checkinemail",
-          "name": "邮箱",
-          "val": "",
-          "placeholder": "请填写，例如：example@v2bz.com",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 1,
-          "desc": "请填入邮箱"
+          ”id“: ”A_Cloud_checkinemail“,
+          ”name“: ”邮箱“,
+          ”val“: ”“,
+          ”placeholder“: ”请填写，例如：example@v2bz.com“,
+          ”type“: ”textarea“,
+          ”autoGrow“: true,
+          ”rows“: 1,
+          ”desc“: ”请填入邮箱“
         },
         {
-          "id": "A_Cloud_checkinpwd",
-          "name": "密码",
-          "val": "",
-          "placeholder": "请填写，例如：password",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 1,
-          "desc": "请填入密码"
+          ”id“: ”A_Cloud_checkinpwd“,
+          ”name“: ”密码“,
+          ”val“: ”“,
+          ”placeholder“: ”请填写，例如：password“,
+          ”type“: ”textarea“,
+          ”autoGrow“: true,
+          ”rows“: 1,
+          ”desc“: ”请填入密码“
         }
       ],
-      "author": "@vvveng",
-      "repo": "https://github.com/vvveng/BoxJs",
-      "icons": [
-        "https://raw.githubusercontent.com/58xinian/icon/master/glados_mini.png",
-        "https://raw.githubusercontent.com/58xinian/icon/master/glados_animation.gif"
+      ”author“: ”@vvveng“,
+      ”repo“: ”https://github.com/vvveng/BoxJs“,
+      ”icons“: [
+        ”https://raw.githubusercontent.com/58xinian/icon/master/glados_mini.png“,
+        ”https://raw.githubusercontent.com/58xinian/icon/master/glados_animation.gif“
       ],
-      "script": "https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Cloud_Checkin.js"
+      ”script“: ”https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Cloud_Checkin.js“
     }
   ]
 }
