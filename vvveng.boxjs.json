@@ -137,7 +137,7 @@
     },
     {
       "id": "vvveng.checkin",
-      "name": "机场签到",
+      "name": "机场签到-V版",
       "descs_html": [
         "点此直达【<a href=\"https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Cloud_Checkin.js\">脚本地址</a>】",
         "多个机场使用请用<font class=\"error--text\">中文逗号</font>分隔，顺序需要对应。",
