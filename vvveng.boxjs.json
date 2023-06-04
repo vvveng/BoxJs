@@ -142,7 +142,7 @@
         "点此直达【<a href=\"https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Cloud_Checkin.js\">脚本地址</a>】"
       ], 
       "keys": [
-        "A_Cloud.checkintitle", 
+        "@A_Cloud.checkintitle", 
         "A_Cloud.checkinurl", 
         "A_Cloud.checkinemail", 
         "A_Cloud.checkinpwd"
