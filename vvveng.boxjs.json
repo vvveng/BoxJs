@@ -142,14 +142,14 @@
         "点此直达【<a href=\"https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Cloud_Checkin.js\">脚本地址</a>】"
       ], 
       "keys": [
-        "A_Cloud_checkintitle", 
-        "A_Cloud_checkinurl", 
-        "A_Cloud_checkinemail", 
-        "A_Cloud_checkinpwd"
+        "A_Cloud.checkintitle", 
+        "A_Cloud.checkinurl", 
+        "A_Cloud.checkinemail", 
+        "A_Cloud.checkinpwd"
       ], 
       "settings": [
         {
-          "id": "A_Cloud_checkintitle", 
+          "id": "A_Cloud.checkintitle", 
           "name": "标题", 
           "val": "", 
           "placeholder": "请填写，例如：CordCloud", 
@@ -159,7 +159,7 @@
           "desc": "请填入标题"
         }, 
         {
-          "id": "A_Cloud_checkinurl", 
+          "id": "A_Cloud.checkinurl", 
           "name": "网址", 
           "val": "", 
           "placeholder": "请填写，例如：https://example.com", 
@@ -169,7 +169,7 @@
           "desc": "请填入网址"
         }, 
         {
-          "id": "A_Cloud_checkinemail", 
+          "id": "A_Cloud.checkinemail", 
           "name": "邮箱", 
           "val": "", 
           "placeholder": "请填写，例如：example@v2bz.com", 
@@ -179,7 +179,7 @@
           "desc": "请填入邮箱"
         }, 
         {
-          "id": "A_Cloud_checkinpwd", 
+          "id": "A_Cloud.checkinpwd", 
           "name": "密码", 
           "val": "", 
           "placeholder": "请填写，例如：password", 
