@@ -6,15 +6,15 @@
   "repo": "https://github.com/vvveng/BoxJs", 
   "apps": [
     {
-      "id": "vvveng.moji", 
+      "id": "@A_Moji", 
       "name": "墨迹天气签到", 
       "keys": [
-        "A_moji_userid", 
-        "A_moji_snsid"
+        "@A_Moji.Userid", 
+        "@A_Moji.Snsid"
       ], 
       "settings": [
         {
-          "id": "A_moji_userid", 
+          "id": "@A_Moji.Userid", 
           "name": "墨迹天气USERID", 
           "val": "", 
           "type": "textarea", 
@@ -24,7 +24,7 @@
           "desc": "填入墨迹天气USERID"
         }, 
         {
-          "id": "A_moji_snsid", 
+          "id": "@A_Moji.Snsid", 
           "name": "墨迹天气SNSID", 
           "val": "", 
           "type": "textarea", 
@@ -42,15 +42,15 @@
       ]
     }, 
     {
-      "id": "vvveng.jiejing", 
+      "id": "@A_JieJing", 
       "name": "捷径社区签到", 
       "keys": [
-        "A_jiejing_user", 
-        "A_jiejing_token"
+        "@A_JieJing.User", 
+        "@A_JieJing.Token"
       ], 
       "settings": [
         {
-          "id": "A_jiejing_user", 
+          "id": "@A_JieJing.User", 
           "name": "捷径社区USER", 
           "val": "", 
           "type": "textarea", 
@@ -60,7 +60,7 @@
           "desc": "填入捷径社区USER"
         }, 
         {
-          "id": "A_jiejing_token", 
+          "id": "@A_JieJing.Token", 
           "name": "捷径社区TOKEN", 
           "val": "", 
           "type": "textarea", 
@@ -78,18 +78,18 @@
       ]
     }, 
     {
-      "id": "vvveng.TF", 
+      "id": "@A_TF", 
       "name": "TestFlight", 
       "keys": [
-        "A_TF_Key", 
-        "A_TF_Request_id", 
-        "A_TF_Session_digest", 
-        "A_TF_Session_id"
+        "@A_TF.Key", 
+        "@A_TF.Request_id", 
+        "@A_TF.Session_digest", 
+        "@A_TF.Session_id"
       ], 
       "settings": [
         {
-          "id": "A_TF_Key", 
-          "name": "TF_Key", 
+          "id": "@A_TF.Key", 
+          "name": "Key", 
           "val": "", 
           "type": "textarea", 
           "placeholder": "Key", 
@@ -98,8 +98,8 @@
           "desc": "填入Key"
         }, 
         {
-          "id": "A_TF_Request_id", 
-          "name": "TF_Request_id", 
+          "id": "@A_TF.Request_id", 
+          "name": "Request_id", 
           "val": "", 
           "type": "textarea", 
           "placeholder": "Request_id", 
@@ -108,8 +108,8 @@
           "desc": "填入Request_id"
         }, 
         {
-          "id": "A_TF_Session_digest", 
-          "name": "TF_Session_digest", 
+          "id": "@A_TF.Session_digest", 
+          "name": "Session_digest", 
           "val": "", 
           "type": "textarea", 
           "placeholder": "Session_digest", 
@@ -118,8 +118,8 @@
           "desc": "填入Session_digest"
         }, 
         {
-          "id": "A_TF_Session_id", 
-          "name": "TF_Session_id", 
+          "id": "@A_TF.Session_id", 
+          "name": "Session_id", 
           "val": "", 
           "type": "textarea", 
           "placeholder": "Session_id", 
