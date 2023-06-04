@@ -9,12 +9,12 @@
       "id": "@A_Moji", 
       "name": "墨迹天气签到", 
       "keys": [
-        "@A_Moji.Userid", 
-        "@A_Moji.Snsid"
+        "@A_Moji.User_id", 
+        "@A_Moji.Sns_id"
       ], 
       "settings": [
         {
-          "id": "@A_Moji.Userid", 
+          "id": "@A_Moji.User_id", 
           "name": "墨迹天气USERID", 
           "val": "", 
           "type": "textarea", 
@@ -24,7 +24,7 @@
           "desc": "填入墨迹天气USERID"
         }, 
         {
-          "id": "@A_Moji.Snsid", 
+          "id": "@A_Moji.Sns_id", 
           "name": "墨迹天气SNSID", 
           "val": "", 
           "type": "textarea", 
