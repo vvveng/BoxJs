@@ -196,31 +196,6 @@
         "https://raw.githubusercontent.com/58xinian/icon/master/glados_animation.gif"
       ], 
       "script": "https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Cloud_Checkin.js"
-    },
-    {
-      "id": "@A_WuAi", 
-      "name": "吾爱破解签到", 
-      "keys": [
-        "@A_WuAi.Cookie",
-      ], 
-      "settings": [
-        {
-          "id": "@A_WuAi.Cookie", 
-          "name": "吾爱破解Cookie", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "USERID", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入吾爱破解Cookie"
-        }
-      ], 
-      "author": "@vvveng", 
-      "repo": "https://github.com/vvveng/BoxJs", 
-      "icons": [
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png", 
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wuai.png"
-      ]
     }
   ]
 }
