@@ -1,0 +1,7 @@
+{
+  "id":"vvveng.app.sub",
+  "name":"嗡嗡嗡的应用订阅",
+  "author":"@vvveng",
+  "repo":"https://github.com/vvveng/BoxJs",
+  "apps":[{"author":"@dompling","keys":["CookiesJD","cks_get_mute"],"repo":"https:\/\/github.com\/dompling\/Script\/blob\/master\/jd\/JD_extra.js","id":"JD_Cookies","scripts":[{"name":"京东签到","script":"https:\/\/raw.githubusercontent.com\/dompling\/Script\/master\/jd\/JD_extra_sign.js"},{"name":"删除相关 ck","script":"https:\/\/raw.githubusercontent.com\/dompling\/Script\/master\/jd\/jd_ck_del.js"}],"descs_html":["若需要方便浏览：右上角菜单->打开调试模式->调试页面地址","<a href='https:\/\/raw.githubusercontent.com\/dompling\/chavyleung-boxjs\/boxjs\/box\/chavy.boxjs.html' target='_blank'>调试页面地址<\/a>"],"settings":[{"id":"cks_get_mute","val":false,"name":"静音获取","type":"boolean","desc":"更新时，不会执行通知提示"},{"id":"del_condition","val":"","name":"删除条件","type":"text","desc":"输入的条件,运行一次之后则会清空条件"},{"primary":["userName"],"id":"CookiesJD","val":"","rows":8,"autoGrow":false,"type":"textarea","child":[],"name":"CK 列表","desc":"CK 列表 (JSON 格式)"}],"name":"京东账号","icons":["https:\/\/raw.githubusercontent.com\/Orz-3\/mini\/master\/jd.png","https:\/\/raw.githubusercontent.com\/Orz-3\/task\/master\/jd.png"]}]
+}
