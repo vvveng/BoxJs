@@ -1,297 +1,342 @@
 {
-  "id": "vvveng.app.sub", 
-  "name": "嗡嗡嗡 应用订阅", 
-  "author": "@vvveng", 
-  "icon": "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wwweng.png", 
-  "repo": "https://github.com/vvveng/BoxJs", 
-  "apps": [
+  "id" : "vvveng.app.sub",
+  "author" : "@vvveng",
+  "icon" : "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/wwweng.png",
+  "name" : "嗡嗡嗡的应用订阅",
+  "repo" : "https:\/\/github.com\/vvveng\/BoxJs",
+  "apps" : [
     {
-      "id": "@A_Moji", 
-      "name": "墨迹天气签到", 
-      "keys": [
-        "@A_Moji.User_id", 
+      "author" : "@vvveng",
+      "keys" : [
+        "@A_Moji.User_id",
         "@A_Moji.Sns_id"
-      ], 
-      "settings": [
+      ],
+      "repo" : "https:\/\/github.com\/vvveng\/BoxJs",
+      "id" : "@A_Moji",
+      "settings" : [
         {
-          "id": "@A_Moji.User_id", 
-          "name": "墨迹天气USERID", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "USERID", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入墨迹天气USERID"
-        }, 
+          "placeholder" : "USERID",
+          "id" : "@A_Moji.User_id",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "墨迹天气USERID",
+          "desc" : "填入墨迹天气USERID"
+        },
         {
-          "id": "@A_Moji.Sns_id", 
-          "name": "墨迹天气SNSID", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "SNSID", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入墨迹天气SNSID"
+          "placeholder" : "SNSID",
+          "id" : "@A_Moji.Sns_id",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "墨迹天气SNSID",
+          "desc" : "填入墨迹天气SNSID"
         }
-      ], 
-      "author": "@vvveng", 
-      "repo": "https://github.com/vvveng/BoxJs", 
-      "icons": [
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png", 
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png"
+      ],
+      "name" : "墨迹天气签到",
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/moji.png",
+        "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/moji.png"
       ]
-    }, 
+    },
     {
-      "id": "@A_JieJing", 
-      "name": "捷径社区签到", 
-      "keys": [
-        "@A_JieJing.User", 
+      "author" : "@vvveng",
+      "keys" : [
+        "@A_JieJing.User",
         "@A_JieJing.Token"
-      ], 
-      "settings": [
+      ],
+      "repo" : "https:\/\/github.com\/vvveng\/BoxJs",
+      "id" : "@A_JieJing",
+      "settings" : [
         {
-          "id": "@A_JieJing.User", 
-          "name": "捷径社区USER", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "USER", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入捷径社区USER"
-        }, 
+          "placeholder" : "USER",
+          "id" : "@A_JieJing.User",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "捷径社区USER",
+          "desc" : "填入捷径社区USER"
+        },
         {
-          "id": "@A_JieJing.Token", 
-          "name": "捷径社区TOKEN", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "TOKEN", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入捷径社区TOKEN"
+          "placeholder" : "TOKEN",
+          "id" : "@A_JieJing.Token",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "捷径社区TOKEN",
+          "desc" : "填入捷径社区TOKEN"
         }
-      ], 
-      "author": "@vvveng", 
-      "repo": "https://github.com/vvveng/BoxJs", 
-      "icons": [
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/jiejingshequ.png", 
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/jiejingshequ.png"
+      ],
+      "name" : "捷径社区签到",
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/jiejingshequ.png",
+        "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/jiejingshequ.png"
       ]
-    }, 
+    },
     {
-      "id": "@A_TF", 
-      "name": "TestFlight", 
-      "keys": [
-        "@A_TF.Key", 
-        "@A_TF.Request_id", 
-        "@A_TF.Session_digest", 
+      "author" : "@vvveng",
+      "keys" : [
+        "@A_TF.Key",
+        "@A_TF.Request_id",
+        "@A_TF.Session_digest",
         "@A_TF.Session_id"
-      ], 
-      "settings": [
+      ],
+      "repo" : "https:\/\/github.com\/vvveng\/BoxJs",
+      "id" : "@A_TF",
+      "settings" : [
         {
-          "id": "@A_TF.Key", 
-          "name": "Key", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "Key", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入Key"
-        }, 
+          "placeholder" : "Key",
+          "id" : "@A_TF.Key",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "Key",
+          "desc" : "填入Key"
+        },
         {
-          "id": "@A_TF.Request_id", 
-          "name": "Request_id", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "Request_id", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入Request_id"
-        }, 
+          "placeholder" : "Request_id",
+          "id" : "@A_TF.Request_id",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "Request_id",
+          "desc" : "填入Request_id"
+        },
         {
-          "id": "@A_TF.Session_digest", 
-          "name": "Session_digest", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "Session_digest", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入Session_digest"
-        }, 
+          "placeholder" : "Session_digest",
+          "id" : "@A_TF.Session_digest",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "Session_digest",
+          "desc" : "填入Session_digest"
+        },
         {
-          "id": "@A_TF.Session_id", 
-          "name": "Session_id", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "Session_id", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入Session_id"
+          "placeholder" : "Session_id",
+          "id" : "@A_TF.Session_id",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "Session_id",
+          "desc" : "填入Session_id"
         }
-      ], 
-      "author": "@vvveng", 
-      "repo": "https://github.com/vvveng/BoxJs", 
-      "icons": [
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/TF.png", 
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/TF.png"
+      ],
+      "name" : "TestFlight",
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/TF.png",
+        "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/TF.png"
       ]
-    }, 
+    },
     {
-      "id": "A_Cloud", 
-      "name": "机场签到", 
-      "descs_html": [
-        "点此直达【<a href=\"https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Cloud_Checkin.js\">脚本地址</a>】"
-      ], 
-      "keys": [
-        "@A_Cloud.checkintitle", 
-        "@A_Cloud.checkinurl", 
-        "@A_Cloud.checkinemail", 
+      "author" : "@vvveng",
+      "keys" : [
+        "@A_Cloud.checkintitle",
+        "@A_Cloud.checkinurl",
+        "@A_Cloud.checkinemail",
         "@A_Cloud.checkinpwd"
-      ], 
-      "settings": [
+      ],
+      "repo" : "https:\/\/github.com\/vvveng\/BoxJs",
+      "id" : "A_Cloud",
+      "script" : "https:\/\/raw.githubusercontent.com\/vvveng\/All-In-One\/main\/JS\/Cloud_Checkin.js",
+      "descs_html" : [
+        "点此直达【<a href=\"https:\/\/raw.githubusercontent.com\/vvveng\/All-In-One\/main\/JS\/Cloud_Checkin.js\">脚本地址<\/a>】"
+      ],
+      "settings" : [
         {
-          "id": "@A_Cloud.checkintitle", 
-          "name": "标题", 
-          "val": "", 
-          "placeholder": "请填写，例如：CordCloud", 
-          "type": "textarea", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "请填入标题"
-        }, 
+          "placeholder" : "请填写，例如：CordCloud",
+          "id" : "@A_Cloud.checkintitle",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "标题",
+          "desc" : "请填入标题"
+        },
         {
-          "id": "@A_Cloud.checkinurl", 
-          "name": "网址", 
-          "val": "", 
-          "placeholder": "请填写，例如：https://example.com", 
-          "type": "textarea", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "请填入网址"
-        }, 
+          "placeholder" : "请填写，例如：https:\/\/example.com",
+          "id" : "@A_Cloud.checkinurl",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "网址",
+          "desc" : "请填入网址"
+        },
         {
-          "id": "@A_Cloud.checkinemail", 
-          "name": "邮箱", 
-          "val": "", 
-          "placeholder": "请填写，例如：example@v2bz.com", 
-          "type": "textarea", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "请填入邮箱"
-        }, 
+          "placeholder" : "请填写，例如：example@v2bz.com",
+          "id" : "@A_Cloud.checkinemail",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "邮箱",
+          "desc" : "请填入邮箱"
+        },
         {
-          "id": "@A_Cloud.checkinpwd", 
-          "name": "密码", 
-          "val": "", 
-          "placeholder": "请填写，例如：password", 
-          "type": "textarea", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "请填入密码"
+          "placeholder" : "请填写，例如：password",
+          "id" : "@A_Cloud.checkinpwd",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "密码",
+          "desc" : "请填入密码"
         }
-      ], 
-      "author": "@vvveng", 
-      "repo": "https://github.com/vvveng/BoxJs", 
-      "icons": [
-        "https://raw.githubusercontent.com/58xinian/icon/master/glados_mini.png", 
-        "https://raw.githubusercontent.com/58xinian/icon/master/glados_animation.gif"
-      ], 
-      "script": "https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Cloud_Checkin.js"
-    },
-    {
-      "id": "@A_WuAi", 
-      "name": "吾爱破解签到", 
-      "keys": [
-        "@A_WuAi.Cookie"
-      ], 
-      "settings": [
-        {
-          "id": "@A_WuAi.Cookie", 
-          "name": "吾爱破解Cookie", 
-          "val": "", 
-          "type": "textarea", 
-          "placeholder": "USERID", 
-          "autoGrow": true, 
-          "rows": 1, 
-          "desc": "填入吾爱破解Cookie"
-        }
-      ], 
-      "author": "@vvveng", 
-      "repo": "https://github.com/vvveng/BoxJs", 
-      "icons": [
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/moji.png", 
-        "https://raw.githubusercontent.com/vvveng/BoxJs/main/pic/wuai.png"
+      ],
+      "name" : "机场签到",
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/58xinian\/icon\/master\/glados_mini.png",
+        "https:\/\/raw.githubusercontent.com\/58xinian\/icon\/master\/glados_animation.gif"
       ]
     },
     {
-        "id": "yuheng.imaotai",
-        "name": "i茅台预约",
-        "descs_html": [
-            "留空"
-        ],
-        "keys": [
-            "imaotai__config__clearshopdir",
-            "imaotai__config__province",
-            "imaotai__config__city",
-            "imaotai__config__itemcode",
-            "imaotai__config__address",
-            "imaotai__config__shopid"
-        ],
-        "settings": [
-            {
-                "id": "imaotai__config__clearshopdir",
-                "name": "是否清空店铺字段",
-                "val": false,
-                "type": "boolean",
-                "desc": "不懂默认即可"
-            },
-            {
-                "id": "imaotai__config__province",
-                "name": "省份名称",
-                "val": null,
-                "type": "text",
-                "rows": 1,
-                "desc": "必填, 例如: 山东省"
-            },
-            {
-                "id": "imaotai__config__city",
-                "name": "城市名称",
-                "val": null,
-                "type": "text",
-                "rows": 1,
-                "desc": "必填, 例如: 济南市"
-            },
-            {
-                "id": "imaotai__config__itemcode",
-                "name": "预约项",
-                "val": "10213",
-                "type": "text",
-                "rows": 1,
-                "desc": "需要预约的项目{'10213': '贵州茅台酒（癸卯兔年）', '2478': '贵州茅台酒（珍品）','10214': '贵州茅台酒（癸卯兔年）x2','10056': '53%vol 500ml 茅台1935'}"
-            },
-            {
-                "id": "imaotai__config__address",
-                "name": "当前位置",
-                "val": null,
-                "type": "text",
-                "rows": 1,
-                "desc": "尽量具体, 比如: 山东省济南市齐鲁软件园, 精确到标志性建筑物"
-            },
-            {
-                "id": "imaotai__config__shopid",
-                "name": "需要预约的店铺id",
-                "val": null,
-                "type": "text",
-                "rows": 1,
-                "desc": "置空默认选择最近店铺"
-            }
-        ],
-        "author": "@yuheng",
-        "repo": "https://github.com/Yuheng0101/X",
-        "icons": [
-            "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/imaotai/mini.png",
-            "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ae/f4/18/aef41811-955e-e6b0-5d23-6763c2eef1ab/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/144x144.png"
-        ],
-        "script": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/imaotai/imaotai.js"
+      "author" : "@vvveng",
+      "keys" : [
+        "@A_WuAi.Cookie"
+      ],
+      "repo" : "https:\/\/github.com\/vvveng\/BoxJs",
+      "id" : "@A_WuAi",
+      "settings" : [
+        {
+          "placeholder" : "USERID",
+          "id" : "@A_WuAi.Cookie",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "吾爱破解Cookie",
+          "desc" : "填入吾爱破解Cookie"
+        }
+      ],
+      "name" : "吾爱破解签到",
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/moji.png",
+        "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/wuai.png"
+      ]
+    },
+    {
+      "author" : "@yuheng",
+      "keys" : [
+        "imaotai__config__clearshopdir",
+        "imaotai__config__province",
+        "imaotai__config__city",
+        "imaotai__config__itemcode",
+        "imaotai__config__address",
+        "imaotai__config__shopid"
+      ],
+      "repo" : "https:\/\/github.com\/Yuheng0101\/X",
+      "id" : "yuheng.imaotai",
+      "script" : "https:\/\/raw.githubusercontent.com\/Yuheng0101\/X\/main\/Tasks\/imaotai\/imaotai.js",
+      "descs_html" : [
+        "留空"
+      ],
+      "settings" : [
+        {
+          "id" : "imaotai__config__clearshopdir",
+          "val" : false,
+          "name" : "是否清空店铺字段",
+          "type" : "boolean",
+          "desc" : "不懂默认即可"
+        },
+        {
+          "id" : "imaotai__config__province",
+          "rows" : 1,
+          "val" : null,
+          "name" : "省份名称",
+          "type" : "text",
+          "desc" : "必填, 例如: 山东省"
+        },
+        {
+          "id" : "imaotai__config__city",
+          "rows" : 1,
+          "val" : null,
+          "name" : "城市名称",
+          "type" : "text",
+          "desc" : "必填, 例如: 济南市"
+        },
+        {
+          "id" : "imaotai__config__itemcode",
+          "rows" : 1,
+          "val" : "10213",
+          "name" : "预约项",
+          "type" : "text",
+          "desc" : "需要预约的项目{'10213': '贵州茅台酒（癸卯兔年）', '2478': '贵州茅台酒（珍品）','10214': '贵州茅台酒（癸卯兔年）x2','10056': '53%vol 500ml 茅台1935'}"
+        },
+        {
+          "id" : "imaotai__config__address",
+          "rows" : 1,
+          "val" : null,
+          "name" : "当前位置",
+          "type" : "text",
+          "desc" : "尽量具体, 比如: 山东省济南市齐鲁软件园, 精确到标志性建筑物"
+        },
+        {
+          "id" : "imaotai__config__shopid",
+          "rows" : 1,
+          "val" : null,
+          "name" : "需要预约的店铺id",
+          "type" : "text",
+          "desc" : "置空默认选择最近店铺"
+        }
+      ],
+      "name" : "i茅台预约",
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/Yuheng0101\/X\/main\/Tasks\/imaotai\/mini.png",
+        "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Purple116\/v4\/ae\/f4\/18\/aef41811-955e-e6b0-5d23-6763c2eef1ab\/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png\/144x144.png"
+      ]
+    },
+    {
+      "author" : "@zqzess",
+      "keys" : [
+        "@ADriveCheckIn.refresh_token_body",
+        "@ADriveCheckIn.headers",
+        "@ADriveCheckIn.refresh_token",
+        "@ADriveCheckIn.isAutoGetReword"
+      ],
+      "repo" : "https:\/\/github.com\/zqzess\/rule_for_quantumultX",
+      "id" : "aDriveCheckIn",
+      "onInstall" : {
+        "title" : "安装确认",
+        "message" : "本订阅包含重写资源, 是否需要自动安装?",
+        "install" : {
+          "Surge" : "",
+          "Stash" : "",
+          "QuanX" : "quantumult-x:\/\/\/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fgithub.com%2Fchavyleung%2Fscripts%2Fraw%2Fmaster%2Fbox%2Frewrite%2Fboxjs.rewrite.quanx.conf%2Ctag%3Dboxjs%22%5D%7D",
+          "Loon" : "",
+          "Shadowrocket" : ""
+        }
+      },
+      "settings" : [
+        {
+          "id" : "@ADriveCheckIn.refresh_token",
+          "val" : null,
+          "rows" : 1,
+          "autoGrow" : false,
+          "type" : "text",
+          "name" : "refresh_token",
+          "desc" : "阿里云盘refresh_token"
+        },
+        {
+          "id" : "@ADriveCheckIn.isAutoGetReword",
+          "val" : true,
+          "name" : "开启自动领取奖励",
+          "type" : "boolean",
+          "desc" : "默认开启"
+        }
+      ],
+      "name" : "阿里云盘自动签到",
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/Softlyx\/Fileball\/main\/YUAN\/ALiYun.png",
+        "https:\/\/raw.githubusercontent.com\/Softlyx\/Fileball\/main\/YUAN\/ALiYun.png"
+      ]
     }
   ]
 }
