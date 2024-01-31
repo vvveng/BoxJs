@@ -8,6 +8,78 @@
     {
       "author" : "@vvveng",
       "keys" : [
+        "@A_Moji.User_id",
+        "@A_Moji.Sns_id"
+      ],
+      "repo" : "https:\/\/github.com\/vvveng\/BoxJs",
+      "id" : "@A_Moji",
+      "settings" : [
+        {
+          "placeholder" : "USERID",
+          "id" : "@A_Moji.User_id",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "墨迹天气USERID",
+          "desc" : "填入墨迹天气USERID"
+        },
+        {
+          "placeholder" : "SNSID",
+          "id" : "@A_Moji.Sns_id",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "墨迹天气SNSID",
+          "desc" : "填入墨迹天气SNSID"
+        }
+      ],
+      "name" : "墨迹天气签到",
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/moji.png",
+        "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/moji.png"
+      ]
+    },
+    {
+      "author" : "@vvveng",
+      "keys" : [
+        "@A_JieJing.User",
+        "@A_JieJing.Token"
+      ],
+      "repo" : "https:\/\/github.com\/vvveng\/BoxJs",
+      "id" : "@A_JieJing",
+      "settings" : [
+        {
+          "placeholder" : "USER",
+          "id" : "@A_JieJing.User",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "捷径社区USER",
+          "desc" : "填入捷径社区USER"
+        },
+        {
+          "placeholder" : "TOKEN",
+          "id" : "@A_JieJing.Token",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "捷径社区TOKEN",
+          "desc" : "填入捷径社区TOKEN"
+        }
+      ],
+      "name" : "捷径社区签到",
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/jiejingshequ.png",
+        "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/jiejingshequ.png"
+      ]
+    },
+    {
+      "author" : "@vvveng",
+      "keys" : [
         "@A_TF.Key",
         "@A_TF.Request_id",
         "@A_TF.Session_digest",
@@ -62,67 +134,6 @@
         "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/TF.png",
         "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/TF.png"
       ]
-    },
-    {
-      "script" : "https:\/\/raw.githubusercontent.com\/MCdasheng\/QuantumultX\/main\/Scripts\/myScripts\/TestFlight.js",
-      "author" : "@mcdasheng",
-      "repo" : "https:\/\/github.com\/mcdasheng",
-      "id" : "TestFlight",
-      "keys" : [
-        "tf_appIds",
-        "tf_account_key",
-        "tf_session_id",
-        "tf_request_id",
-        "tf_session_digest"
-      ],
-      "icons" : [
-        "https:\/\/raw.githubusercontent.com\/Orz-3\/mini\/master\/Color\/testflight.png",
-        "https:\/\/raw.githubusercontent.com\/Orz-3\/mini\/master\/Color\/testflight.png"
-      ],
-      "settings" : [
-        {
-          "id" : "tf_appIds",
-          "placeholder" : "",
-          "val" : "",
-          "name" : "tf_appIds",
-          "type" : "text",
-          "desc" : ""
-        },
-        {
-          "id" : "tf_account_key",
-          "placeholder" : "",
-          "val" : "",
-          "name" : "tf_account_key",
-          "type" : "text",
-          "desc" : ""
-        },
-        {
-          "id" : "tf_session_id",
-          "placeholder" : "",
-          "val" : "",
-          "name" : "tf_session_id",
-          "type" : "text",
-          "desc" : ""
-        },
-        {
-          "id" : "tf_request_id",
-          "placeholder" : "",
-          "val" : "",
-          "name" : "tf_request_id",
-          "type" : "text",
-          "desc" : ""
-        },
-        {
-          "id" : "tf_session_digest",
-          "placeholder" : "",
-          "val" : "",
-          "name" : "tf_session_digest",
-          "type" : "text",
-          "desc" : ""
-        }
-      ],
-      "name" : "TestFlight自动加入",
-      "desc" : "详见脚本注释"
     },
     {
       "author" : "@vvveng",
@@ -212,6 +223,77 @@
       ]
     },
     {
+      "author" : "@yuheng",
+      "keys" : [
+        "imaotai__config__clearshopdir",
+        "imaotai__config__province",
+        "imaotai__config__city",
+        "imaotai__config__itemcode",
+        "imaotai__config__address",
+        "imaotai__config__shopid"
+      ],
+      "repo" : "https:\/\/github.com\/Yuheng0101\/X",
+      "id" : "yuheng.imaotai",
+      "script" : "https:\/\/raw.githubusercontent.com\/Yuheng0101\/X\/main\/Tasks\/imaotai\/imaotai.js",
+      "descs_html" : [
+        "留空"
+      ],
+      "settings" : [
+        {
+          "id" : "imaotai__config__clearshopdir",
+          "val" : false,
+          "name" : "是否清空店铺字段",
+          "type" : "boolean",
+          "desc" : "不懂默认即可"
+        },
+        {
+          "id" : "imaotai__config__province",
+          "rows" : 1,
+          "val" : null,
+          "name" : "省份名称",
+          "type" : "text",
+          "desc" : "必填, 例如: 山东省"
+        },
+        {
+          "id" : "imaotai__config__city",
+          "rows" : 1,
+          "val" : null,
+          "name" : "城市名称",
+          "type" : "text",
+          "desc" : "必填, 例如: 济南市"
+        },
+        {
+          "id" : "imaotai__config__itemcode",
+          "rows" : 1,
+          "val" : "10213",
+          "name" : "预约项",
+          "type" : "text",
+          "desc" : "需要预约的项目{'10213': '贵州茅台酒（癸卯兔年）', '2478': '贵州茅台酒（珍品）','10214': '贵州茅台酒（癸卯兔年）x2','10056': '53%vol 500ml 茅台1935'}"
+        },
+        {
+          "id" : "imaotai__config__address",
+          "rows" : 1,
+          "val" : null,
+          "name" : "当前位置",
+          "type" : "text",
+          "desc" : "尽量具体, 比如: 山东省济南市齐鲁软件园, 精确到标志性建筑物"
+        },
+        {
+          "id" : "imaotai__config__shopid",
+          "rows" : 1,
+          "val" : null,
+          "name" : "需要预约的店铺id",
+          "type" : "text",
+          "desc" : "置空默认选择最近店铺"
+        }
+      ],
+      "name" : "i茅台预约",
+      "icons" : [
+        "https:\/\/raw.githubusercontent.com\/Yuheng0101\/X\/main\/Tasks\/imaotai\/mini.png",
+        "https:\/\/is1-ssl.mzstatic.com\/image\/thumb\/Purple116\/v4\/ae\/f4\/18\/aef41811-955e-e6b0-5d23-6763c2eef1ab\/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png\/144x144.png"
+      ]
+    },
+    {
       "author" : "@zqzess",
       "keys" : [
         "@ADriveCheckIn.refresh_token_body",
@@ -254,44 +336,6 @@
       "icons" : [
         "https:\/\/raw.githubusercontent.com\/Softlyx\/Fileball\/main\/YUAN\/ALiYun.png",
         "https:\/\/raw.githubusercontent.com\/Softlyx\/Fileball\/main\/YUAN\/ALiYun.png"
-      ]
-    },
-    {
-      "author" : "@Sliverkiss",
-      "repo" : "",
-      "keys" : [
-        "aliyun_data",
-        "aliyun_reward",
-        "aliyun_date"
-      ],
-      "id" : "sliverkiss_aDriveCheckIn",
-      "settings" : [
-        {
-          "id" : "aliyun_data",
-          "val" : null,
-          "name" : "阿里云ck数据",
-          "type" : "textarea",
-          "desc" : "阿里云盘ck数据"
-        },
-        {
-          "id" : "aliyun_reward",
-          "val" : true,
-          "name" : "开启自动领取奖励",
-          "type" : "boolean",
-          "desc" : "默认开启"
-        },
-        {
-          "id" : "aliyun_date",
-          "val" : "",
-          "name" : "垃圾回收期限",
-          "type" : "text",
-          "desc" : "默认开启"
-        }
-      ],
-      "name" : "阿里云盘自动签到",
-      "icons" : [
-        "https:\/\/raw.githubusercontent.com\/sliverkiss\/QuantumultX\/main\/icon\/aliyun.png",
-        "https:\/\/raw.githubusercontent.com\/sliverkiss\/QuantumultX\/main\/icon\/aliyun.png"
       ]
     }
   ]
