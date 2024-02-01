@@ -6,99 +6,97 @@
   "repo" : "https:\/\/raw.githubusercontent.com\/zqzess\/rule_for_quantumultX\/master\/js\/Mine\/boxjs.json",
   "apps" : [
     {
-      "author" : "@vvveng",
+      "script" : "",
+      "author" : "@smallfawn",
+      "repo" : "",
+      "id" : "chery",
       "keys" : [
-        "@A_TF.Key",
-        "@A_TF.Request_id",
-        "@A_TF.Session_digest",
-        "@A_TF.Session_id"
+        "chery_data"
       ],
-      "repo" : "https:\/\/github.com\/vvveng\/BoxJs",
-      "id" : "@A_TF",
+      "descs_html" : [
+        "变量值:mobile-consumer-sapp.chery.cn请求头Authorization 去掉bearer "
+      ],
       "settings" : [
         {
-          "placeholder" : "Key",
-          "id" : "@A_TF.Key",
+          "id" : "chery_data",
+          "placeholder" : "",
           "val" : "",
-          "rows" : 1,
-          "autoGrow" : true,
+          "name" : "chery_data",
           "type" : "textarea",
-          "name" : "Key",
-          "desc" : "填入Key"
-        },
-        {
-          "placeholder" : "Request_id",
-          "id" : "@A_TF.Request_id",
-          "val" : "",
-          "rows" : 1,
-          "autoGrow" : true,
-          "type" : "textarea",
-          "name" : "Request_id",
-          "desc" : "填入Request_id"
-        },
-        {
-          "placeholder" : "Session_digest",
-          "id" : "@A_TF.Session_digest",
-          "val" : "",
-          "rows" : 1,
-          "autoGrow" : true,
-          "type" : "textarea",
-          "name" : "Session_digest",
-          "desc" : "填入Session_digest"
-        },
-        {
-          "placeholder" : "Session_id",
-          "id" : "@A_TF.Session_id",
-          "val" : "",
-          "rows" : 1,
-          "autoGrow" : true,
-          "type" : "textarea",
-          "name" : "Session_id",
-          "desc" : "填入Session_id"
+          "desc" : "变量值:mobile-consumer-sapp.chery.cn请求头Authorization 去掉bearer "
         }
       ],
-      "name" : "TestFlight",
+      "name" : "奇瑞汽车",
       "icons" : [
-        "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/TF.png",
-        "https:\/\/raw.githubusercontent.com\/vvveng\/BoxJs\/main\/pic\/TF.png"
+        "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/Chery.png",
+        "https:\/\/raw.githubusercontent.com\/Sliverkiss\/QuantumultX\/main\/icon\/Chery.png"
       ]
     },
     {
-      "author" : "@Sliverkiss",
-      "repo" : "",
+      "author" : "@FoKit",
+      "script" : "https:\/\/raw.githubusercontent.com\/FoKit\/Scripts\/main\/scripts\/jhsh_checkIn.js",
       "keys" : [
-        "aliyun_data",
-        "aliyun_reward",
-        "aliyun_date"
+        "JHSH_GIFT",
+        "JHSH_BODY",
+        "JHSH_LOGIN_INFO",
+        "JHSH_VERSION"
       ],
-      "id" : "sliverkiss_aDriveCheckIn",
+      "id" : "jhsh",
+      "descs_html" : [
+        ""
+      ],
       "settings" : [
         {
-          "id" : "aliyun_data",
-          "val" : null,
-          "name" : "阿里云ck数据",
-          "type" : "textarea",
-          "desc" : "阿里云盘ck数据"
+          "name" : "奖励类型",
+          "id" : "JHSH_GIFT",
+          "items" : [
+            {
+              "key" : "1",
+              "label" : "打车券"
+            },
+            {
+              "key" : "2",
+              "label" : "外卖券"
+            },
+            {
+              "key" : "3",
+              "label" : "骑行券"
+            }
+          ],
+          "type" : "radios",
+          "val" : "2",
+          "desc" : "选择连续签到奖励类型"
         },
         {
-          "id" : "aliyun_reward",
-          "val" : true,
-          "name" : "开启自动领取奖励",
-          "type" : "boolean",
-          "desc" : "默认开启"
-        },
-        {
-          "id" : "aliyun_date",
+          "id" : "JHSH_BODY",
           "val" : "",
-          "name" : "垃圾回收期限",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "签到数据",
+          "desc" : ""
+        },
+        {
+          "id" : "JHSH_LOGIN_INFO",
+          "val" : "",
+          "rows" : 1,
+          "autoGrow" : true,
+          "type" : "textarea",
+          "name" : "登录数据",
+          "desc" : ""
+        },
+        {
+          "id" : "JHSH_VERSION",
+          "val" : "",
+          "name" : "版本号",
           "type" : "text",
-          "desc" : "默认开启"
+          "desc" : ""
         }
       ],
-      "name" : "阿里云盘自动签到",
+      "name" : "建行生活",
       "icons" : [
-        "https:\/\/raw.githubusercontent.com\/sliverkiss\/QuantumultX\/main\/icon\/aliyun.png",
-        "https:\/\/raw.githubusercontent.com\/sliverkiss\/QuantumultX\/main\/icon\/aliyun.png"
+        "https:\/\/raw.githubusercontent.com\/FoKit\/Scripts\/main\/images\/jhsh.png",
+        "https:\/\/raw.githubusercontent.com\/FoKit\/Scripts\/main\/images\/jhsh.png"
       ]
     }
   ]
